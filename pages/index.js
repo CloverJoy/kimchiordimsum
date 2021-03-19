@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import axios from 'axios'
 
 export default function Home({name}) {
   return (
@@ -12,8 +13,10 @@ export default function Home({name}) {
   )
 }
 
-export const getStaticProps = () => {
+export const getStaticProps = async () => {
+  const res = await axios.get('http://localhost:3000/api/hello')
+  const { title } = await res.data.anime[0]
   return {
-    props: {name: 'hello warudo'}
+    props: {name: title}
   }
 }
