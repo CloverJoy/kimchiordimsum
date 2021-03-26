@@ -16,8 +16,8 @@ const NavBar = () => {
         />
       </NavbarBrand>
       <Nav className="mr-auto">
-        <Nav.Link className={Style.link} href="#Home">Home</Nav.Link>
-        <Nav.Link className={Style.link} href="#pricing">Watch</Nav.Link>
+        <Nav.Link className={Style.link} href="#home">Home</Nav.Link>
+        <Nav.Link className={Style.link} href="#watch">Watch</Nav.Link>
       </Nav>
     </Navbar>
   )
