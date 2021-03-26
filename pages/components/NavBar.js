@@ -9,7 +9,7 @@ const NavBar = () => {
     <Navbar variant="primary" className={Style.bg} expand="lg">
       <NavbarBrand className={Style.brand}>Kimchi or DimSum</NavbarBrand>
       <Nav className="mr-auto">
-        <Nav.Link className={Style.link} href="about">About</Nav.Link>
+        <Nav.Link className={Style.link} href="#Home">Home</Nav.Link>
         <Nav.Link className={Style.link} href="#pricing">Watch</Nav.Link>
       </Nav>
     </Navbar>
