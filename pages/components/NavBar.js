@@ -8,28 +8,25 @@ import Style from '@styles/Navbar.module.css'
 const NavBar = () => {
   return (
     <Navbar variant="primary" className={Style.bg} expand="lg">
-      <NavbarBrand className={Style.brand}>
-        <Link href='/'>
+      <NavbarBrand className={Style.brand} href="/">
         <Image
           src="/kndlogo.png"
           alt="Kimchi or DimSum"
           width="70"
           height="30"
-          className={Style.pointer}
         />
-        </Link>
       </NavbarBrand>
       <Nav className="mr-auto">
-        <Nav.Link className={Style.link}>
           <Link href="/">
-          Home
+          <Nav.Link href="/" className={Style.link}>
+            Home
+          </Nav.Link>
           </Link>
-        </Nav.Link>
-        <Nav.Link className={Style.link}>
           <Link href="/watch">
+          <Nav.Link href="/watch" className={Style.link}>
           Watch
+          </Nav.Link>
           </Link>
-        </Nav.Link>
       </Nav>
     </Navbar>
   )

@@ -6,7 +6,7 @@ import HomeContent from '@components/Homecontent'
 import Footer from '@components/Footer'
 import Style from '@styles/Home.module.css'
 
-export default function Home({name}) {
+export default function Home() {
   return (
     <div>
       <HeadComponent />
