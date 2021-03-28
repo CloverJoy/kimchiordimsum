@@ -1,0 +1,26 @@
+.videolist {
+  background: #fff;
+  padding: 8px;
+  border: 0;
+  box-shadow: 0 1px 2px rgba(0,0,0,.1);
+  margin-right: 20px;
+}
+
+.videolistentry {
+  font-size: 16px;
+  padding: 8px;
+}
+
+.videolistentrytitle {
+  font-weight: bold;
+}
+
+.videolistentrytitle:hover {
+  color: #e62117;
+  cursor: pointer;
+}
+
+.videolistentrydetail {
+  font-size: 12px;
+  color: #999;
+}
