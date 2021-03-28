@@ -6,6 +6,10 @@ import HomeContent from '@components/Homecontent'
 import Footer from '@components/Footer'
 import Style from '@styles/Home.module.css'
 
+// after lunch, slice desc per \n. map div render
+// bikin dropdown list render per playlist kalo bisa
+// ganti favicon
+
 export default function Home() {
   return (
     <div>
