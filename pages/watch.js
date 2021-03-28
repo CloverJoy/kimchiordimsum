@@ -35,8 +35,8 @@ export default function Watch({datas}) {
         <Row>
       {
         datas.map((data, idx) => (
-          <Col lg>
-          <VideoList handleVideo={handleVideo} i={idx} video={data} key={data.videoId}/>
+          <Col lg key={data.id}>
+          <VideoList handleVideo={handleVideo} i={idx} video={data} />
           </Col>
         ))
       }

@@ -2,7 +2,7 @@
 import axios from 'axios'
 
 const getData = async () => {
-  const req = await axios.get(`https://www.googleapis.com/youtube/v3/search?key=${process.env.KEYTWO}&channelId=${process.env.CHID}&part=snippet,id&order=viewCount&maxResults=20`)
+  const req = await axios.get(`https://www.googleapis.com/youtube/v3/playlistItems?key=${process.env.KEYTWO}&playlistId=${process.env.PLID}&part=snippet&maxResults=50`)
   const data = req.data
   console.log('YT API CALLED FROM SERVER')
   return data
