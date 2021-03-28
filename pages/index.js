@@ -6,7 +6,7 @@ import HomeContent from '@components/Homecontent'
 import Footer from '@components/Footer'
 import Style from '@styles/Home.module.css'
 
-// after lunch, slice desc per \n. map div render
+// urusin playlist. terus cari tau id id playlist nya
 // bikin dropdown list render per playlist kalo bisa
 // ganti favicon
 
@@ -21,11 +21,3 @@ export default function Home() {
     </div>
   )
 }
-
-// export const getStaticProps = async () => {
-//   const res = await axios.get('http://localhost:3000/api/hello')
-//   const { title } = res.data.anime[0]
-//   return {
-//     props: {name: title}
-//   }
-// }

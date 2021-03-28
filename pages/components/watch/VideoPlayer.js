@@ -1,7 +1,6 @@
 import Style from '@styles/VideoPlayer.module.css'
 import ResponsiveEmbed from 'react-bootstrap/ResponsiveEmbed'
-
-// after lunch, slice desc per \n. map div render
+import moment from 'moment'
 
 const VideoPlayer = ({video}) => (
   <div className={Style.videoplayer}>
@@ -10,7 +9,13 @@ const VideoPlayer = ({video}) => (
     </ResponsiveEmbed>
     <div className={Style.videoplayerdetails}>
       <h3 dangerouslySetInnerHTML={{__html: video.snippet.title}} />
-      <div>{video.snippet.description}</div>
+      <div dangerouslySetInnerHTML={{__html: moment(video.snippet.publishedAt).format('[Uploaded: ]MMM Do YYYY, [at] h:mm a')}} />
+
+      {
+        video.snippet.description.split('\n').map((desc, idx) => (
+          <div style={{marginTop:'1.5em'}}key={idx+"desc"}>{desc}</div>
+        ))
+      }
     </div>
   </div>
 )

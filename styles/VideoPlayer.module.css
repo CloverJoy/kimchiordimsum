@@ -1,9 +1,8 @@
 .videoplayer {
   margin: 1em;
   height: auto;
-  width: 90%;
+  width: 250rem;
   max-width: 1280px;
-
 }
 
 .videoplayerdetails {

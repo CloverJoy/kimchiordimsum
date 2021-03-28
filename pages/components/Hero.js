@@ -8,7 +8,7 @@ const Hero = () => (
     <Jumbotron className={Style.bgreset}>
       <h1 className={Style.herotitle}>Kimchi or DimSum</h1>
       <p>Your dynamic KPOP analytics and news YouTube channel! </p>
-      <Button variant="danger">Subscribe now!</Button>
+      <Button variant="danger" href="https://www.youtube.com/c/kimchiordimsum?sub_confirmation=1" target="_blank">Subscribe now!</Button>
     </Jumbotron>
   </div>
 );

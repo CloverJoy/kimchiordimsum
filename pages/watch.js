@@ -31,11 +31,11 @@ export default function Watch({datas}) {
       <NavBar />
       <div style={{display: 'flex'}}>
       <VideoPlayer video={video}/>
-      <Container style={{height:'43rem', overflow:'auto', margin: '0.5em'}}>
+      <Container style={{height:'100rem', width:'100%', overflow:'auto', marginTop: '1em', marginLeft:'3em'}}>
         <Row>
       {
         datas.map((data, idx) => (
-          <Col lg key={data.id}>
+          <Col sm key={data.id}>
           <VideoList handleVideo={handleVideo} i={idx} video={data} />
           </Col>
         ))
