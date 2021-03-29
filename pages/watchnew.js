@@ -10,7 +10,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
 export const getStaticProps = async () => {
-  const res = await axios.get(`${process.env.URL||'http://localhost:3000'}/api/watchnew`)
+  const res = await axios.get(`${process.env.URL||'http://localhost:3000/'}api/watchnew`)
   const data = res.data.items;
   console.log('YT called')
   return {
