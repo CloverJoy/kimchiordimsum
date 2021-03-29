@@ -2,6 +2,8 @@
 
 Your dynamic kpop news analytics!
 =======
+
+Hello we are [Kimchi or DimSum](https://www.youtube.com/channel/UC5ijYrmKjAhSs4Hv7gVM1BQ), your favorite KPOP news and analytic KPOP news channel. This is the long term project for Kimsum website. feel free to contribute! 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -22,16 +24,13 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+## First feature, Stream Kimchi or DimSum video on our Website!
+Powered by YouTube Data API V3. (For development, please provide your own API key, you can set it as .env.local variable of KEYTWO)
+P.s: Sorry if our Watch feature is Error 500, It's because of the API call limitation! 
+But, ENJOY!!!
 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Subscribe our channel!](https://www.youtube.com/channel/UC5ijYrmKjAhSs4Hv7gVM1BQ?sub_confirmation=1) - New video every week about KPOP!!
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+IZ*ONE PLZ PERMANENT :(
