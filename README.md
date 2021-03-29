@@ -3,7 +3,7 @@
 Your dynamic kpop news analytics!
 =======
 
-Hello we are [Kimchi or DimSum](https://www.youtube.com/channel/UC5ijYrmKjAhSs4Hv7gVM1BQ), your favorite KPOP news and analytic KPOP news channel. This is the long term project for Kimsum website. feel free to contribute! 
+Hello we are [Kimchi or DimSum](https://www.youtube.com/channel/UC5ijYrmKjAhSs4Hv7gVM1BQ), your favorite KPOP news and analytic KPOP news channel. This is the long term project for Kimsum website. feel free to contribute!
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -26,11 +26,10 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 ## First feature, Stream Kimchi or DimSum video on our Website!
 Powered by YouTube Data API V3. (For development, please provide your own API key, you can set it as .env.local variable of KEYTWO)
-P.s: Sorry if our Watch feature is Error 500, It's because of the API call limitation! 
+P.s: Sorry if our Watch feature is Error 500, It's because of the API call limitation!
 But, ENJOY!!!
 
 
 - [Subscribe our channel!](https://www.youtube.com/channel/UC5ijYrmKjAhSs4Hv7gVM1BQ?sub_confirmation=1) - New video every week about KPOP!!
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Your feedback and contributions are welcome!
 IZ*ONE PLZ PERMANENT :(
