@@ -26,6 +26,11 @@ const NavBar = () => {
           </Link>
         </Nav.Item>
           <NavDropdown title="Watch" className={Style.link}>
+          <Link href="/watchnew">
+            <NavDropdown.Item href="/watchnew">
+                Newest video
+          </NavDropdown.Item>
+          </Link>
           <Link href="/watchizone">
             <NavDropdown.Item href="/watchizone">
                 IZ*ONE
@@ -39,6 +44,11 @@ const NavBar = () => {
           <Link href="/watchgg">
             <NavDropdown.Item href="/watchgg">
                 Girlgroup
+          </NavDropdown.Item>
+          </Link>
+          <Link href="/watchtop">
+            <NavDropdown.Item href="/watchtop">
+                Top 10 Videos
           </NavDropdown.Item>
           </Link>
         </NavDropdown>
