@@ -4,8 +4,8 @@
     "baseUrl": "./",
     "paths": {
       "@styles/*":["styles/*"],
-      "@components/*":["vercel/workpath0/pages/components/*"],
-      "@api/*":["vercel/workpath0/pages/api/*"],
+      "@components/*":["pages/components/*"],
+      "@api/*":["pages/api/*"],
     }
   }
 }
