@@ -1,8 +1,8 @@
-import Hero from './components/Hero'
-import NavBar from './components/NavBar'
-import HeadComponent from './components/HeadComponent'
-import HomeContent from './components/HomeContent'
-import Footer from './components/Footer'
+import Hero from '../components/Hero'
+import NavBar from '../components/NavBar'
+import HeadComponent from '../components/HeadComponent'
+import HomeContent from '../components/HomeContent'
+import Footer from '../components/Footer'
 
 // ganti favicon
 
