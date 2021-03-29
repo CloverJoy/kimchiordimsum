@@ -26,16 +26,21 @@ const NavBar = () => {
           </Link>
         </Nav.Item>
           <NavDropdown title="Watch" className={Style.link}>
-            <NavDropdown.Item>
-              <Link href="/watchizone" style={{textDecoration: 'none'}}>
+          <Link href="/watchizone">
+            <NavDropdown.Item href="/watchizone">
                 IZ*ONE
-              </Link>
           </NavDropdown.Item>
-          <NavDropdown.Item>
-              <Link href="/watchbg">
+          </Link>
+          <Link href="/watchbg">
+            <NavDropdown.Item href="/watchbg">
                 Boygroup
-              </Link>
           </NavDropdown.Item>
+          </Link>
+          <Link href="/watchgg">
+            <NavDropdown.Item href="/watchgg">
+                Girlgroup
+          </NavDropdown.Item>
+          </Link>
         </NavDropdown>
       </Nav>
     </Navbar>
