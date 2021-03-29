@@ -7,7 +7,7 @@ import Footer from '@components/Footer'
 import Style from '@styles/Home.module.css'
 
 // urusin playlist. terus cari tau id id playlist nya
-// bikin dropdown list render per playlist kalo bisa
+// bikin dropdown list render per playlist kalo bisa. bootstrap namanya nav
 // ganti favicon
 
 export default function Home() {
