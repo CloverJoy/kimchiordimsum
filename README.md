@@ -3,6 +3,9 @@
 Your dynamic kpop news analytics!
 =======
 
+### Live now on Oracle cloud!
+[Click here for live](http://kimchiordimsum.christoffel.xyz/)
+
 Hello we are [Kimchi or DimSum](https://www.youtube.com/channel/UC5ijYrmKjAhSs4Hv7gVM1BQ), your favorite KPOP news and analytic KPOP news channel. This is the long term project for Kimsum website. feel free to contribute!
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
