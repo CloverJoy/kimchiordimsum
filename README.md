@@ -11,7 +11,24 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, install all dependencies
+```bash
+npm install
+# or 
+yarn
+```
+
+Then create .env.local file with this data
+```env
+KEYTWO={INSERT YOUR OWN YOUTUBE API KEY HERE}
+PLID=PLgBLdAXo_lJ4IpuntpG9xO3QaeWr4VreE
+PLIDBG=PLgBLdAXo_lJ5uX4aoYxYjtaHjsnOCHQqp
+PLIDGG=PLgBLdAXo_lJ7EDnQ9koueTlT4D-1i3BzM
+PLIDTOP=PLgBLdAXo_lJ4PkSMlzwVzlWEhJE1pb3oj
+PLIDNEW=PLgBLdAXo_lJ68qfr3D_N1MMwaOJp_8pmU
+```
+
+Run the development server:
 
 ```bash
 npm run dev
