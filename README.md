@@ -1,6 +1,6 @@
 # kimchiordimsum
 
-Your dynamic kpop news analytics!
+Your dynamic kpop news analytics YouTube channel!
 =======
 
 ### Live now on Oracle cloud!
